@@ -1,0 +1,118 @@
+    /* GLOBAL */
+    body {
+      background-color: #fff8f0;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      scroll-margin-top: 80px;
+    }
+
+    /* NAVBAR */
+    .bg-orange {
+      background-color: #ff914d;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                  url("image/Brown Begie Illustration Circle Badge Burger Business Logo.png") center/cover no-repeat;
+      padding: 120px 0;
+    }
+
+    /* PROMO */
+    .promo {
+      background-color: #ffe0c7;
+      font-weight: bold;
+    }
+
+    /* CARD PRODUK */
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .price {
+      color: #ff914d;
+      font-weight: bold;
+    }
+
+    /* ===== CARD PRODUK ===== */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-body h5 {
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ===== HARGA ===== */
+.price {
+  color: #ff914d;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* ===== BUTTON WHATSAPP PRODUK ===== */
+.btn-wa {
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 8px 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-wa:hover {
+  background-color: #ff914d;
+  color: #fff;
+  transform: scale(1.03);
+}
+
+    /* ABOUT */
+    .about {
+      background-color: #ffffff;
+    }
+
+    /* CONTACT */
+    .contact {
+      background-color: #ffe0c7;
+    }
+
+    /* WHATSAPP BUTTON */
+    .wa-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      font-size: 26px;
+      padding: 14px 18px;
+      border-radius: 50%;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    .wa-btn:hover {
+      background: #1ebe5d;
+    }

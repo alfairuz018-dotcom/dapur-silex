@@ -1,0 +1,1 @@
+console.log("Website Pejuang Dapur Silex siap digunakan!");
